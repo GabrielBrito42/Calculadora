@@ -1,0 +1,31 @@
+
+<body>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<div class="calculadora">
+		<div class="visor">
+			<div id="total" class="acc"></div>
+		</div>
+		<div id="conta" class="viseira"></div>
+		<button class="button" id="limpar" onclick="Porcentagem('%')">%</button>
+		<button class="button" id="limpar" onclick="LimparUm()">C</button>
+		<button class="button" id="limpar" onclick="LimparTudo(7)">CE</button>
+		<button class="button" id="limpar" onclick="LimparUm()">X</button>
+		<button class="button" id="numero" onclick="AdicionarNumero(7)">7</button>
+		<button class="button" id="numero"  onclick="AdicionarNumero(8)">8</button>
+		<button class="button" id="numero" onclick="AdicionarNumero(9)">9</button>
+		<button class="button" id="operador" onclick="Operador('/')">/</button>
+		<button class="button" id="numero" onclick="AdicionarNumero(4)">4</button>
+		<button class="button" id="numero" onclick="AdicionarNumero(5)">5</button>
+		<button class="button" id="numero" onclick="AdicionarNumero(6)">6</button>
+		<button class="button" id="operador" onclick="Operador('*')">*</button>
+		<button class="button" id="numero" onclick="AdicionarNumero(1)">1</button>
+		<button class="button" id="numero" onclick="AdicionarNumero(2)">2</button>
+		<button class="button" id="numero" onclick="AdicionarNumero(3)">3</button>
+		<button class="button" id="operador" onclick="Operador('-')">-</button>
+		<button class="button" id="operador" onclick="Virgula('.')">.</button>
+		<button class="button" id="numero" onclick="AdicionarNumero(0)">0</button>
+		<button class="button" id="operador" onclick="Operador('=')">=</button>
+		<button class="button" id="operador" onclick="Operador('+')">+</button>
+	</div>
+</body>
+<script type="text/javascript" src="js/calculadora.js"></script>

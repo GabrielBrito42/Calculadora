@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color:#242529;
+    text-decoration: none;
+}
+a:visited {
+    color:#242529;
+    text-decoration: none;
+}
+a:hover {color:#73cee6;}
+
+body{
+	background-color: #000000; 
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+
+.acc {
+    color: #000000;
+    width: 500px;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.container{
+	text-align: center;
+}
+
+.visor {
+    width: 515px;
+    height: 50px;
+    margin-left: -2px;
+    background: #f6f7fa;
+    border-style: solid;
+    border-bottom: none;
+}
+
+.viseira {
+    width: 515px;
+    height: 60px;
+    margin-left: -2px;
+    background: #f6f7fa;
+    text-align: right;
+    font-size: 30px;
+    border-style: solid;
+    border-top: none;
+}
+
+.calculadora {
+    position:fixed;
+    top: 20%;
+    left: 50%;
+    width: 520px;
+    height: 800px;
+    margin-top: -9em;
+    margin-left: -17em;
+}
+
+.button {
+  width: 125px;
+  height: 125px;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4CAF50;
+  cursor: pointer;
+  transition: 0.4s;
+  opacity: 0.6;
+  vertical-align: middle !important;
+  border-style: solid;
+  border-color: white;
+}
+
+.button:hover {opacity: 2}
